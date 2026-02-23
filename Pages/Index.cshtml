@@ -13,7 +13,7 @@
     <ul>
         @foreach (var m in Model.Products)
         {
-            <li>@m.Id - @m.Name - @m.Price</li>
+            <li>@m.Id - @m.Name - <a href="/Details/@m.Id">Details</a></li>
         }
     </ul>
 </body>
