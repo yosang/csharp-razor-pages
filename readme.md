@@ -16,5 +16,9 @@ Razor Pages follow a page-centric model (closer to MVVM — Model-View-ViewModel
 1. Build the application with `dotnet build`
 2. Run it with `dotnet run` / `dotnet watch` (for hot reload).
 
+# Endpoints
+- `/` - Index page
+- `/Details/:id` - Product details by id
+
 # Author
 [Yosmel Chiang](https://github.com/yosang)
